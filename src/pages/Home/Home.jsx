@@ -1,5 +1,5 @@
 import "./Home.css"
-import { Header } from "../../components"
+import { Header, SideBar } from "../../components"
 import { useContext } from "react"
 import { LibraryContext } from "../../contexts"
 
@@ -9,7 +9,10 @@ export const Home = () => {
   return (
     <div>
       <Header />
-      <h1>Home</h1>
+      <SideBar />
+      <main>
+        <h1 className="display-1">Home</h1>
+      </main>
     </div>
   )
 }
