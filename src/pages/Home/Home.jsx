@@ -2,6 +2,7 @@ import "./Home.css"
 import { Header, SideBar } from "../../components"
 import { useContext } from "react"
 import { LibraryContext } from "../../contexts"
+import { Outlet } from "react-router-dom"
 
 export const Home = () => {
   const { videoList } = useContext(LibraryContext);
@@ -10,9 +11,7 @@ export const Home = () => {
     <div>
       <Header />
       <SideBar />
-      <main>
-        <h1 className="display-1">Home</h1>
-      </main>
+      <Outlet />
     </div>
   )
 }
