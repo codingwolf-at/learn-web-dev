@@ -1,3 +1,4 @@
 .nav {
   margin-left: var(--sidebar-width);
+  border: none;
 }

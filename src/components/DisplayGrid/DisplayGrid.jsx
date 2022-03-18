@@ -2,7 +2,7 @@ import "./DisplayGrid.css";
 
 export const DisplayGrid = () => {
   return (
-    <div className="display-grid bg-light"> 
+    <div className="display-grid"> 
       <h1>Display Grid</h1>
     </div>
   )
