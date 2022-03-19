@@ -5,9 +5,7 @@ export const Header = () => {
     <header className="nav nav-dark">
       <span className="nav-brand">WebTube</span>
       <div className="nav-link-container">
-          <a href="#" className="nav-link">Home</a>
-          <a href="#" className="nav-link">Contact</a>
-          <a href="#" className="nav-link">Services</a>
+        {/* place nav links here */}
       </div>
     </header>
   );
