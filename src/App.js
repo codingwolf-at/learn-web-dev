@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import './App.css';
-import { DisplayGrid, VideoPage } from "./pages";
+import { DisplayGrid, Playlists, Roadmaps, VideoPage } from "./pages";
 import { Home } from './pages';
 
 function App() {
@@ -10,6 +10,8 @@ function App() {
         <Route path="/" element={<Home />}>
           <Route index element={<DisplayGrid />} />
           <Route path="/video/:videoId" element={<VideoPage />} />
+          <Route path="/playlists" element={<Playlists />} />
+          <Route path="/roadmaps" element={<Roadmaps />} />
         </Route>
       </Routes>
     </div>
