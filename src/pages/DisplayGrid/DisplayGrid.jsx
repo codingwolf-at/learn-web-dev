@@ -1,6 +1,6 @@
 import "./DisplayGrid.css";
 import { useLibrary } from "../../hooks"
-import { Thumbnail } from "../Thumbnail/Thumbnail";
+import { Thumbnail } from "../../components";
 
 export const DisplayGrid = () => {
 

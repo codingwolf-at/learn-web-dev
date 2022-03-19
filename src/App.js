@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import './App.css';
-import { DisplayGrid, VideoPage } from "./components";
+import { DisplayGrid, VideoPage } from "./pages";
 import { Home } from './pages';
 
 function App() {
