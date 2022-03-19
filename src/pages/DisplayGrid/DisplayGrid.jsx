@@ -4,12 +4,12 @@ import { Thumbnail } from "../../components";
 
 export const DisplayGrid = () => {
 
-  const { videoList } = useLibrary();
+  const { library } = useLibrary();
 
   return (
     <main className="display-container"> 
       <div className="display-grid">
-        {videoList.map((video) => {
+        {library.map((video) => {
           return <Thumbnail key={video.videoId} video={video} />;
         })}
       </div>

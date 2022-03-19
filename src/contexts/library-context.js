@@ -1,11 +1,12 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 import { videoList } from "../data/mockDB";
 
 export const LibraryContext = createContext();
 
 export const LibraryProvider = ({ children }) => {
+  const [library, setLibrary] = useState(videoList);
   return (
-    <LibraryContext.Provider value={{ videoList }} >
+    <LibraryContext.Provider value={{ library, setLibrary }} >
       { children }
     </LibraryContext.Provider>
   )
