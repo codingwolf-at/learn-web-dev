@@ -8,6 +8,9 @@ export const DisplayGrid = () => {
 
   return (
     <main className="display-container"> 
+      <div className="chip-container bg-light">
+        Chip
+      </div>
       <div className="display-grid">
         {library.map((video) => {
           return <Thumbnail key={video.videoId} video={video} />;
