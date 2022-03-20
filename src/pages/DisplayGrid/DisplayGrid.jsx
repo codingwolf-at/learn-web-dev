@@ -1,6 +1,6 @@
 import "./DisplayGrid.css";
 import { useLibrary } from "../../hooks"
-import { Thumbnail } from "../../components";
+import { Chip, Thumbnail } from "../../components";
 
 export const DisplayGrid = () => {
 
@@ -9,7 +9,11 @@ export const DisplayGrid = () => {
   return (
     <main className="display-container"> 
       <div className="chip-container bg-light">
-        Chip
+        {
+          ["All", "HTML", "CSS", "JavaScript"].map((topic) => (
+            <Chip text={topic} />
+          ))
+        }
       </div>
       <div className="display-grid">
         {library.map((video) => {
