@@ -63,5 +63,109 @@ export const videoList = [{
       channelId: "UCsBjURrPoezykLs9EqgamOA",
     },
     liked: false
+  },
+  {
+    videoId: "BsDoLVMnmZs",
+    title: "HTML Tutorial For Beginners In Hindi 🔥",
+    description: "Learn HTML in One Video: In this video, we will see how to create beautiful websites using Html. HTML is the language used for website design. This hindi course on html will teach you everything you need to learn about html tags, lists, tables, seo etc.",
+    topic: "HTML",
+    channel: {
+      name: "CodeWithHarry",
+      channelId: "UCeVMnSShP_Iviwkknt83cww",
+    },
+    liked: false
+  }, 
+  {
+    videoId: "qz0aGYrrlhU",
+    title: "HTML Tutorial for Beginners: HTML Crash Course",
+    description: "HTML Tutorial for Beginners - Learn HTML for a career in web development. This HTML tutorial teaches you everything you need to get started.",
+    topic: "HTML",
+    channel: {
+      name: "Programming with Mosh",
+      channelId: "UCWv7vMbMWH4-V0ZXdmDpPBA",
+    },
+    liked: false
+  },
+  {
+    videoId: "pQN-pnXPaVg",
+    title: "HTML Full Course - Build a Website Tutorial",
+    description: "Learn the basics of HTML5 and web development in this awesome course for beginners.",
+    topic: "HTML",
+    channel: {
+      name: "freeCodeCamp.org",
+      channelId: "UC8butISFwT-Wl7EV0hUK0BQ",
+    },
+    liked: false
+  },
+  {
+    videoId: "kUMe1FH4CHE",
+    title: "Learn HTML – Full Tutorial for Beginners (2022)",
+    description: "Learn HTML in this complete course for beginners. This is an all-in-one beginner tutorial to help you learn web development skills. This course teaches HTML5.",
+    topic: "HTML",
+    channel: {
+      name: "freeCodeCamp.org",
+      channelId: "UC8butISFwT-Wl7EV0hUK0BQ",
+    },
+    liked: false
+  },
+  {
+    videoId: "Edsxf_NBFrw",
+    title: "CSS Tutorial In Hindi 🔥",
+    description: "CSS Tutorial For Beginners in Hindi: In this CSS3 tutorial in Hindi we will learn everything you need to learn about CSS from scratch. We will first discuss why we need CSS and what CSS is after which we will gradually build pace and learn several intermediate to advanced level concepts.",
+    topic: "CSS",
+    channel: {
+      name: "CodeWithHarry",
+      channelId: "UCeVMnSShP_Iviwkknt83cww",
+    },
+    liked: false
+  },
+  {
+    videoId: "1Rs2ND1ryYc",
+    title: "CSS Tutorial - Zero to Hero (Complete Course)",
+    description: "Learn CSS in this full course for beginners. CSS, or Cascading Style Sheet, is responsible for the styling and looks of a website.",
+    topic: "CSS",
+    channel: {
+      name: "freeCodeCamp.org",
+      channelId: "UC8butISFwT-Wl7EV0hUK0BQ",
+    },
+    liked: false
+  },
+  {
+    videoId: "1PnVor36_40",
+    title: "Learn CSS in 20 Minutes",
+    description: "In this video we will cover everything you need to know to get up and running with CSS in only 20 minutes. We will cover CSS syntax, how to add CSS to your HTML, CSS colors, CSS units, the box model, and best practices for CSS walking through a full example of CSS being used to style an HTML page. By the end of this video you will know enough about CSS to style any basic web pages in your own projects!",
+    topic: "CSS",
+    channel: {
+      name: "Web Dev Simplified",
+      channelId: "UCFbNIlppjAuEX4znoulh0Cw",
+    },
+    liked: false
+  },
+  {
+    videoId: "yfoY53QXEnI",
+    title: "CSS Crash Course For Absolute Beginners",
+    description: "In this video I will cram as much as possible about CSS. We will be looking at styles, selectors, declarations, etc. We will build a CSS cheat sheet that you can keep as a resource and we will also create a basic website layout. We are using CSS3 but mostly the basics. I will be creating an advanced CSS course with animations,  etc. I do have a Flexbox in 20 minutes video as well if you want to learn flexbox.",
+    topic: "CSS",
+    channel: {
+      name: "Traversy Media",
+      channelId: "UC29ju8bIPH5as8OGnQzwJyA",
+    },
+    liked: false
   }
 ]
+
+
+// TEMPLATE 
+/* 
+{
+  videoId: "",
+  title: "",
+  description: "",
+  topic: "JavaScript",
+  channel: {
+    name: "Fireship",
+    channelId: "UCsBjURrPoezykLs9EqgamOA",
+  },
+  liked: false
+}
+ */

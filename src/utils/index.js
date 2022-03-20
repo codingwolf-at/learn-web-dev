@@ -1,0 +1,1 @@
+export { sortDataByTopic } from "./sortDataByTopic";

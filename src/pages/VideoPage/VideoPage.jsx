@@ -1,11 +1,12 @@
 import YouTubePlayer from "react-player/youtube";
 import { Link, useParams } from "react-router-dom";
-import { videoList } from "../../data/mockDB";
+import { useLibrary } from "../../hooks";
 import "./VideoPage.css";
 
 export const VideoPage = () => {
   const { videoId } = useParams();
-  const video = videoList.find(video => video.videoId === videoId);
+  const { library } = useLibrary();
+  const video = library.find(video => video.videoId === videoId);
 
   return (
     <div className="video-page">
