@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import './App.css';
-import { DisplayGrid, Playlists, Roadmaps, VideoPage } from "./pages";
+import { DisplayGrid, LogIn, Playlists, Roadmaps, SignUp, VideoPage } from "./pages";
 import { Home } from './pages';
 
 function App() {
@@ -12,6 +12,8 @@ function App() {
           <Route path="/video/:videoId" element={<VideoPage />} />
           <Route path="/playlists" element={<Playlists />} />
           <Route path="/roadmaps" element={<Roadmaps />} />
+          <Route path="/login" element={<LogIn />} />
+          <Route path="/signup" element={<SignUp />} />
         </Route>
       </Routes>
     </div>
