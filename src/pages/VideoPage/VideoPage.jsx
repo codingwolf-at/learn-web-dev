@@ -35,6 +35,9 @@ export const VideoPage = () => {
           <span>{video.liked ? "Liked" : "Like"}</span>
         </button>
         <h1 className="display-5">{video.title}</h1>
+        <h2>
+          By: <a href={`https://www.youtube.com/channel/${video.channel.channelId}`} target="_blank" rel="noreferrer">{video.channel.name}</a>
+        </h2>
         <p className="lead">{video.description}</p>
       </div>
     </div>
