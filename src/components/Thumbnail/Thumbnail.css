@@ -2,6 +2,8 @@
   text-decoration: none;
   color: black;
   background-color: var(--grey-color);
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .img-thumbnail {
@@ -10,7 +12,7 @@
 }
 
 .thumbnail-content {
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .thumbnail-content span {
