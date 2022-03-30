@@ -13,7 +13,7 @@ export const DisplayGrid = () => {
     <main className="display-container"> 
       <div className="chip-container bg-light">
         {
-          ["All", "HTML", "CSS", "JavaScript"].map((topic) => (
+          ["All", "HTML", "CSS", "JavaScript", "React"].map((topic) => (
             <Chip text={topic} key={topic} />
           ))
         }

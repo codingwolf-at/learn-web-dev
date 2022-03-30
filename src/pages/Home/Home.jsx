@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <div>
       <Header />
-      <SideBar />
+      {/* <SideBar /> */}
       <Outlet />
     </div>
   )

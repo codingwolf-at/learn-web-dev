@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-:root {
-  --sidebar-width: 4rem;
-}
+/* :root {
+  --sidebar-width:8rem;
+} */
 
 body {
   margin: 0;
