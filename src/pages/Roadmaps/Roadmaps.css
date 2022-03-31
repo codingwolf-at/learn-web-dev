@@ -1,0 +1,13 @@
+.roadmaps-main {
+  padding: 1rem;
+}
+
+.roadmap-heading {
+  display: block;
+  margin: 1rem auto;
+}
+
+.roadmap-img {
+  width: 100%;
+  height: auto;
+}

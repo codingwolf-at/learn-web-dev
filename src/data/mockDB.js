@@ -307,6 +307,17 @@ export const videoList = [{
   liked: false
 },
 {
+  videoId: "fYq5PXgSsbE",
+  title: "Learn Flexbox in 15 Minutes",
+  description: "In this video we will cover everything you need to know about CSS flexbox in only 15 minutes. We will cover what flexbox is, how flexbox works, and the different properties you can use to layout and style your flexbox containers. Flexbox is one of the most important and useful layout properties in all of CSS, and is luckily quite easy to understand once you wrap your head around the terminology.",
+  topic: "CSS",
+  channel: {
+    name: "Web Dev Simplified",
+    channelId: "UCFbNIlppjAuEX4znoulh0Cw",
+  },
+  liked: false
+},
+{
   videoId: "ZohZS6xLYE4",
   title: "Top 10 css interview questions and answers",
   description: "Top 10 commonly asked CSS interview questions and possible answers for front-end programmers. ",
@@ -426,7 +437,8 @@ export const videoList = [{
     channelId: "UCCktnahuRFYIBtNnKT5IYyg",
   },
   liked: false
-}]
+}
+]
 
 
 // TEMPLATE 
