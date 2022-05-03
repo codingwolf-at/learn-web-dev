@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import "./Roadmap.css";
-import { BackButton, FloatingButton } from "../../components";
+import { BackButton, ScrollButton } from "../../components";
 import { useEffect, useState } from "react";
 import { roadmapList } from "../../constants/roadmapList";
 
@@ -15,7 +15,7 @@ export const Roadmap = () => {
   return (
     <div className="roadmap-main">
       <BackButton path="/roadmaps" />
-      <FloatingButton text="Scroll To Top ⬆️" />
+      <ScrollButton />
       <span className="display-5 roadmap-heading center">{ roadmap.title }</span>
       <img src={roadmap.img} className="roadmap-img" alt="Roadmap" />
     </div>
