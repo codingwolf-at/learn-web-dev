@@ -5,7 +5,11 @@
 }
 
 :root {
-  --sidebar-width: 4rem;
+  --white-color: #FAFAFA;
+  --black-color: #18181B;
+  --dark-color: #1C1F23 ;
+  --link-color: #1D4ED8;
+  --grey-color: #E5E7EB;
 }
 
 body {

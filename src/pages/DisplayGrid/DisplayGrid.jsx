@@ -1,7 +1,8 @@
 import "./DisplayGrid.css";
 import { useLibrary } from "../../hooks"
-import { Chip, Thumbnail } from "../../components";
+import { Chip, Thumbnail, ScrollButton } from "../../components";
 import { sortDataByTopic } from "../../utils";
+import { chipList } from "../../constants";
 
 export const DisplayGrid = () => {
 
@@ -11,10 +12,11 @@ export const DisplayGrid = () => {
 
   return (
     <main className="display-container"> 
+      <ScrollButton />
       <div className="chip-container bg-light">
         {
-          ["All", "HTML", "CSS", "JavaScript"].map((topic) => (
-            <Chip text={topic} key={topic} />
+          chipList.map((topic, index) => (
+            <Chip text={topic} key={index} />
           ))
         }
       </div>
