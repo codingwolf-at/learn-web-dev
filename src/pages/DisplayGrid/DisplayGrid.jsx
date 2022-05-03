@@ -2,6 +2,7 @@ import "./DisplayGrid.css";
 import { useLibrary } from "../../hooks"
 import { Chip, Thumbnail, FloatingButton } from "../../components";
 import { sortDataByTopic } from "../../utils";
+import { chipList } from "../../constants";
 
 export const DisplayGrid = () => {
 
@@ -14,8 +15,8 @@ export const DisplayGrid = () => {
       <FloatingButton text="Scroll To Top ⬆️" />
       <div className="chip-container bg-light">
         {
-          ["All", "HTML", "CSS", "JavaScript", "React", "Angular"].map((topic) => (
-            <Chip text={topic} key={topic} />
+          chipList.map((topic, index) => (
+            <Chip text={topic} key={index} />
           ))
         }
       </div>

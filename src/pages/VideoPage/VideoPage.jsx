@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHandPointLeft, faHeart } from "@fortawesome/free-regular-svg-icons";
+import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import YouTubePlayer from "react-player/youtube";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useLibrary } from "../../hooks";
 import "./VideoPage.css";
+import { BackButton } from "../../components";
 
 export const VideoPage = () => {
   const { videoId } = useParams();
@@ -14,12 +15,7 @@ export const VideoPage = () => {
 
   return (
     <div className="video-page">
-      <Link to="/">
-        <button className="btn">
-          <FontAwesomeIcon icon={faHandPointLeft} size="lg" />
-          <span>Go Back</span>
-        </button>
-      </Link>
+      <BackButton />
       <div className="player-wrapper">
         <YouTubePlayer
           className="react-player"
