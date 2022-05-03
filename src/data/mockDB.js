@@ -307,17 +307,6 @@ export const videoList = [{
   liked: false
 },
 {
-  videoId: "fYq5PXgSsbE",
-  title: "Learn Flexbox in 15 Minutes",
-  description: "In this video we will cover everything you need to know about CSS flexbox in only 15 minutes. We will cover what flexbox is, how flexbox works, and the different properties you can use to layout and style your flexbox containers. Flexbox is one of the most important and useful layout properties in all of CSS, and is luckily quite easy to understand once you wrap your head around the terminology.",
-  topic: "CSS",
-  channel: {
-    name: "Web Dev Simplified",
-    channelId: "UCFbNIlppjAuEX4znoulh0Cw",
-  },
-  liked: false
-},
-{
   videoId: "ZohZS6xLYE4",
   title: "Top 10 css interview questions and answers",
   description: "Top 10 commonly asked CSS interview questions and possible answers for front-end programmers. ",
@@ -437,7 +426,74 @@ export const videoList = [{
     channelId: "UCCktnahuRFYIBtNnKT5IYyg",
   },
   liked: false
-}
+},
+{
+  videoId: "k5E2AVpwsko",
+  title: "Angular Tutorial for Beginners: Learn Angular",
+  description: "Angular tutorial for beginners: Learn Angular & TypeScript from scratch. This Angular tutorial teaches you the fundamentals of Angular and TypeScript.",
+  topic: "Angular",
+  channel: {
+    name: "Programming with Mosh",
+    channelId: "UCWv7vMbMWH4-V0ZXdmDpPBA",
+  },
+  liked: false
+},
+{
+  videoId: "0LhBvp8qpro",
+  title: "Angular Tutorial in Hindi",
+  description: "Angular Complete Course: In this video, I will explain to you everything you need to get started with the Angular framework. Angular is a very popular framework used to create single-page applications (SPA). This video will cover an Angular Project in Hindi wherein we will be building a client-side Todos List app from scratch",
+  topic: "Angular",
+  channel: {
+    name: "CodeWithHarry",
+    channelId: "UCeVMnSShP_Iviwkknt83cww",
+  },
+  liked: false
+},
+{
+  videoId: "Ati-oip_HcU",
+  title: "Angular Full Course - Learn Angular in 6 Hours | Edureka",
+  description: "This Edureka Angular Full Course video will help you understand and learn the fundamentals of Angular. This Angular Tutorial is ideal for both beginners as well as professionals who want to master various concepts of Angular. ",
+  topic: "Angular",
+  channel: {
+    name: "edureka!",
+    channelId: "UCkw4JCwteGrDHIsyIIKo4tQ",
+  },
+  liked: false
+},
+{
+  videoId: "3dHNOWTI7H8",
+  title: "Angular Crash Course",
+  description: "Learn the fundamentals of Angular in this project-based crash course",
+  topic: "Angular",
+  channel: {
+    name: "Traversy Media",
+    channelId: "UC29ju8bIPH5as8OGnQzwJyA",
+  },
+  liked: false
+},
+{
+  videoId: "23o0evRtrFI",
+  title: "Angular Components Beginner's Guide",
+  description: "In this episode we take a look at the basic concepts behind components, pipes, and directives in Angular 6.",
+  topic: "Angular",
+  channel: {
+    name: "Fireship",
+    channelId: "UCsBjURrPoezykLs9EqgamOA",
+  },
+  liked: false
+},
+{
+  videoId: "KhUtM8skC5A",
+  title: "TOP 5 Angular Interview Questions and Answers (for experienced)",
+  description: "In this video, we will talk about the advantages and disadvantages in Angular, Change detection, Dependency injections, Reactive programming, and RxJs, and application performance optimization.",
+  topic: "Angular",
+  channel: {
+    name: "Decoded Frontend",
+    channelId: "UCSj1Igu3ejxqcQISNEmx8VQ",
+  },
+  liked: false
+},
+
 ]
 
 
@@ -447,10 +503,10 @@ export const videoList = [{
 videoId: "",
 title: "",
 description: "",
-topic: "React",
+topic: "Angular",
 channel: {
-  name: "Fireship",
-  channelId: "UCsBjURrPoezykLs9EqgamOA",
+  name: "",
+  channelId: "",
 },
 liked: false
 },
