@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 import "./Thumbnail.css";
 
@@ -13,3 +14,7 @@ export const Thumbnail = ({ video }) => {
     </Link>
   );
 };
+
+Thumbnail.propTypes = {
+  video: PropTypes.object.isRequired
+}
