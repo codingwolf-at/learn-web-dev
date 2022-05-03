@@ -1,4 +1,20 @@
+.thumbnail-link {
+  text-decoration: none;
+  color: black;
+  background-color: var(--grey-color);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
 .img-thumbnail {
   width: 100%;
   height: auto;
+}
+
+.thumbnail-content {
+  padding: 1rem;
+}
+
+.thumbnail-content span {
+  font-size: 1.2rem;
 }

@@ -1,5 +1,6 @@
 import { useLibrary } from "../../hooks"
 import "./Chip.css";
+import PropTypes from 'prop-types';
 
 export const Chip = ({ text }) => {
   const { sortBy, dispatch } = useLibrary();
@@ -14,3 +15,7 @@ export const Chip = ({ text }) => {
     </span>
   );
 };
+
+Chip.propTypes = {
+  text: PropTypes.string.isRequired
+}

@@ -12,6 +12,18 @@ export const LibraryProvider = ({ children }) => {
           ...state,
           sortBy: action.payload
         };
+      case "LIKE_VIDEO":
+        return {
+          ...state,
+          library: state.library.map(video => {
+            if (video.videoId === action.payload) {
+              return {
+                ...video,
+                liked: !video.liked
+              }
+            } return video;
+          })
+        }
       default:
         return state;
     }
