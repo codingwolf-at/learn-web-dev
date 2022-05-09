@@ -9,7 +9,7 @@ export const Playlists = () => {
 
   return (
     <main className="playlists-main">
-      <span className="display-3 playlists-heading">Playlists</span>
+      <span className="display-3 playlists-heading center">Playlists</span>
       <span className="display-5">Liked Videos</span>
       <div className="playlist-container">
         {
