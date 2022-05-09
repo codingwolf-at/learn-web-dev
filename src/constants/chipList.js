@@ -4,5 +4,9 @@ export const chipList = [
   "CSS", 
   "JavaScript", 
   "React", 
-  "Angular"
+  "Angular",
+  "TypeScript",
+  "Express",
+  "MongoDB",
+  "Vue"
 ];
