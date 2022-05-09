@@ -1,4 +1,4 @@
-import { createContext, useReducer } from "react";
+import { createContext, useReducer, useEffect } from "react";
 import { videoList } from "../data/mockDB";
 
 export const LibraryContext = createContext();
@@ -23,16 +23,33 @@ export const LibraryProvider = ({ children }) => {
               }
             } return video;
           })
+        };
+      case "UPDATE_FROM_LOCAL_STORAGE":
+        return {
+          ...state,
+          library: action.payload
         }
       default:
         return state;
-    }
-  }
+    };
+  };
 
-  const [state, dispatch] = useReducer(libraryReducer, { library: [...videoList], sortBy: "All" });
+  const [{ library, sortBy }, dispatch] = useReducer(libraryReducer, { library: [...videoList], sortBy: "All" });
+
+  useEffect(() => {
+    const libraryData = JSON.parse(localStorage.getItem('library'));
+    if (libraryData.length > 0) {
+      dispatch({ type: "UPDATE_FROM_LOCAL_STORAGE", payload: libraryData });
+    } 
+  }, [])
+
+  useEffect(() => {
+    localStorage.setItem('library', JSON.stringify(library));
+  }, [library])
+
 
   return (
-    <LibraryContext.Provider value={{ library: state.library, sortBy: state.sortBy, dispatch }}>
+    <LibraryContext.Provider value={{ library, sortBy, dispatch }}>
       { children }
     </LibraryContext.Provider>
   )
