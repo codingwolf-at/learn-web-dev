@@ -18,10 +18,10 @@ export const Header = () => {
           <FontAwesomeIcon icon={faFolder} size="lg" fixedWidth />
           <span>Playlists</span>
         </NavLink>
-        <NavLink to="/login" className="link" style={({ isActive }) => ({ borderBottom: isActive ? "2px solid white" : "" })}>
+        {/* <NavLink to="/login" className="link" style={({ isActive }) => ({ borderBottom: isActive ? "2px solid white" : "" })}>
           <FontAwesomeIcon icon={faCircleUser} size="lg" fixedWidth />
           <span>Login</span>
-        </NavLink>
+        </NavLink> */}
       </div>
     </header>
   );
